@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "caveupdate",
+  "version": "${version}",
+
+  "name": "Cave Update Mod",
+  "description": "This mod add all fetures in 1.17 at 1.16\n\n \n\nThanks to this mod you will be able to have all the functionality of the 1.17 in 1.16\n\n \n\nyou can use this mod in your modpack.",
+  "authors": [
+    "FrostBreker"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/cave-updatemod",
+    "sources": "https://www.curseforge.com/minecraft/mc-mods/cave-updatemod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/caveupdate/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "fr.breaker.caveupdate.CaveUpdateMod"
+    ]
+  },
+  "mixins": [
+    "caveupdate.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
