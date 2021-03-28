@@ -16,10 +16,14 @@ public class ModBlock
     public static final ModBlock INSTANCE = new ModBlock();
 
     public static final Block AMETHYST_BLOCK = new Block(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(1.5f, 15f));
+    public static final Block COPPER_ORE = new Block(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 1).requiresTool().strength(3f, 15f));
+    public static final Block COPPER_BLOCK = new Block(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(1.5f, 15f));
 
     public void registerAll()
     {
         register(AMETHYST_BLOCK, new Identifier(CaveUpdateMod.MODID, "amethyst_block"));
+        register(COPPER_ORE, new Identifier(CaveUpdateMod.MODID, "copper_ore"));
+        register(COPPER_BLOCK, new Identifier(CaveUpdateMod.MODID, "copper_block"));
     }
 
     private void register(Block block, Identifier name)
