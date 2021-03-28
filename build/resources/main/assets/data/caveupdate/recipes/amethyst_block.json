@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RR",
+    "WW"
+  ],
+  "key": {
+    "W": {
+      "item": "caveupdate:amethyst_shard"
+    },
+    "R": {
+      "item": "caveupdate:amethyst_shard"
+    }
+  },
+  "result": {
+    "item": "caveupdate:amethyst_block",
+    "count": 4
+  }
+}
