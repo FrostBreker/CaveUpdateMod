@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "caveupdate:block/amethyst_cluster",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "caveupdate:block/amethyst_cluster",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "caveupdate:block/amethyst_cluster",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "caveupdate:block/amethyst_cluster",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "caveupdate:block/amethyst_cluster"
+    },
+    "facing=west": {
+      "model": "caveupdate:block/amethyst_cluster",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

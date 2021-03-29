@@ -1,0 +1,7 @@
+{
+  "parent": "caveupdate:block/template_candle",
+  "textures": {
+    "all": "caveupdate:block/candle",
+    "particle": "caveupdate:block/candle"
+  }
+}
