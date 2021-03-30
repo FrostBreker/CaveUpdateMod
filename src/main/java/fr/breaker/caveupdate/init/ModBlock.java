@@ -22,6 +22,7 @@ public class ModBlock
     public static final Block CALCITE = new Block(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 0).requiresTool().strength(0.75f, 0.75f));
     public static final Block AMETHYST_CLUSTER = new Block(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(1.5f, 1.5f).nonOpaque().luminance(5));
     public static final Block CANDLE = new Block(FabricBlockSettings.of(Material.STONE).strength(0.1f, 0.1f).luminance(12));
+    public static final Block TUFF = new Block(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 0).requiresTool().strength(1.5f, 6f));
 
 
     public void registerAll()
@@ -33,6 +34,7 @@ public class ModBlock
         register(AMETHYST_CLUSTER, new Identifier(CaveUpdateMod.MODID, "amethyst_cluster"));
         register(CALCITE, new Identifier(CaveUpdateMod.MODID, "calcite"));
         register(CANDLE, new Identifier(CaveUpdateMod.MODID, "candle"));
+        register(TUFF, new Identifier(CaveUpdateMod.MODID, "tuff"));
     }
 
     private void register(Block block, Identifier name)
