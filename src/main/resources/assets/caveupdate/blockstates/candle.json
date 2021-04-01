@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "caveupdate:block/candle_candle"
+      "model": "caveupdate:block/candle"
     }
   }
 }

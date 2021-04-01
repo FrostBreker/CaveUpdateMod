@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "caveupdate:amethyst_cluster"
+          "name": "caveupdate:lightning_rod"
         }
       ],
       "conditions": [
