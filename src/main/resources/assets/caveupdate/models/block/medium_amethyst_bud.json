@@ -1,0 +1,6 @@
+{
+  "parent": "caveupdate:block/cross",
+  "textures": {
+    "cross": "caveupdate:block/medium_amethyst_bud"
+  }
+}
